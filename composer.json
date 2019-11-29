@@ -1,0 +1,28 @@
+{
+    "name": "chaoswey/twid-number",
+    "description": "taiwan id Number generator and validator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chaoswey",
+            "email": "armed1049@gamil.com.tw"
+        }
+    ],
+    "require": {
+        "php": ">=7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chaoswey\\TWIDNumber\\": "tests"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Chaoswey\\TWIDNumber\\": "src/"
+        }
+    }
+}
